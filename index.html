@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<title>Shop'N'Sell</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<body class="w3-light-grey">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-white w3-border-bottom w3-xlarge">
+  <a href="#" class="w3-bar-item w3-button w3-text-red w3-hover-red"><b><i class="fa fa-map-marker w3-margin-right"></i>Shop'N'Sell</b></a>
+  <a href="#" class="w3-bar-item w3-button w3-right w3-hover-red w3-text-grey"><i class="fa fa-search"></i></a>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content" style="max-width:1500px" id="head">
+  <!-- <img class="w3-image" src="img/london2.jpg" alt="London" width="1500" height="700"> -->
+  <div id="input" class="w3-display-block" style="width:100%">
+    <div class="w3-bar w3-black w3-center">
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'verify');"><i class="fa fa-plane w3-margin-right"></i>Verification</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'shop');"><i class="fa fa-bed w3-margin-right"></i>Shops</button>
+      <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'template');"><i class="fa fa-car w3-margin-right"></i>Get Templates</button>
+    </div>
+
+    <!-- Tabs -->
+    <div id="verify" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Verify Your Identity Using Your BVN</h3>
+      <div class="w3-row-padding" style="margin:0 -16px;">
+        <div class="w3-half">
+          <label>BVN</label>
+          <input class="w3-input w3-border" type="text" placeholder="BVN">
+        </div>
+        <div class="w3-half">
+          <label>DOB</label>
+          <input class="w3-input w3-border" type="date" placeholder="DOB">
+        </div>
+      </div>
+      <p><button class="w3-button w3-dark-grey">Verify</button></p>
+    </div>
+
+    <div id="shop" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Find The Best Shops</h3>
+      <p>Rent An Online Shop With Us</p>
+      <p>We Know Shops - We Know Bussiness.</p>
+      <p><button class="w3-button w3-dark-grey">Search Hotels</button></p>
+    </div>
+
+    <div id="template" class="w3-container w3-white w3-padding-16 myLink">
+      <h3>Best Shops Template In The World!</h3>
+      <p><span class="w3-tag w3-deep-orange">DISCOUNT!</span> Special offer if you Buy today: 25% off anywhere in the world with Shop'N'Sell</p>
+      <input class="w3-input w3-border" type="text" placeholder="">
+      <p><button class="w3-button w3-dark-grey">Search Templates</button></p>
+    </div>
+  </div>
+</header>
+
+
+<!-- Footer -->
+<!-- <footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Made By Ingwe</p>
+</footer> -->
+
+<script src="js/script.js">
+</script>
+
+</body>
+</html>
