@@ -10,3 +10,15 @@ h6 {
 .myLink {
 	display: none;
 }
+
+#result span {
+	font-size: large;
+}
+
+#FirstName {
+	font: bold;
+}
+
+#result {
+	display: none;
+}
